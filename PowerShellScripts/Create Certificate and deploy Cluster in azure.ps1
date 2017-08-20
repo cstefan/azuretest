@@ -16,14 +16,16 @@ CurrentStorageAccount :
 Import-module C:\Users\cstefan\Documents\#GitRepos\Service-Fabric\Scripts\ServiceFabricRPHelpers\ServiceFabricRPHelpers.psm1
 
 # Create Certificate
-Invoke-AddCertToKeyVault -SubscriptionId 120aa78c-bac1-4079-950b-e9159c47abe9 -ResourceGroupName vegacluster_weu -Location "West Europe" -VaultName vegacluster -CertificateName vegacert -Password !1%indeca -CreateSelfSignedCertificate -DnsName www.vegademo.azurewebsites.net -OutputPath c:\AzureCertificates
+#Invoke-AddCertToKeyVault -SubscriptionId 120aa78c-bac1-4079-950b-e9159c47abe9 -ResourceGroupName vegacluster_weu -Location "West Europe" -VaultName vegacluster -CertificateName vegacert -Password !1%indeca -CreateSelfSignedCertificate -DnsName www.vegademo.azurewebsites.net -OutputPath c:\AzureCertificates
+Invoke-AddCertToKeyVault -SubscriptionId 120aa78c-bac1-4079-950b-e9159c47abe9 -ResourceGroupName vegacluster_weu -Location "West Europe" -VaultName vegacluster -CertificateName vegacert -Password !1%indeca -CreateSelfSignedCertificate -DnsName vegacluster.westeurope.cloudapp.azure.com -OutputPath c:\AzureCertificates
+
 
 <#
 Name                           Value
 ----                           -----
-CertificateThumbprint          83DC4991113C5FA3BE325EF3835091D87DF942EE
+CertificateThumbprint          66AF8847B38EC754F1C2398D5E933B70C419A13B
 SourceVault                    /subscriptions/120aa78c-bac1-4079-950b-e9159c47abe9/resourceGroups/vegacluster_weu/providers/Microsoft.KeyVault/vaults/vegacluster
-CertificateURL                 https://vegacluster.vault.azure.net:443/secrets/vegacert/f546f4e213af4d2d980e14a6e6820444
+CertificateURL                 https://vegacluster.vault.azure.net:443/secrets/vegacert/78869ed83f9848c0be8c17c825e96dad
 #>
 
 # Certificate was created and uploaded into Azure
