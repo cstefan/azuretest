@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "CryptoInbox", "CryptoInbox\CryptoInbox.sfproj", "{77E40DBA-4034-4D61-B7BC-77C0E249468F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatelessCryptoInboxService", "StatelessCryptoInboxService\StatelessCryptoInboxService.csproj", "{17D9EC43-EE69-4B04-A21D-A48851DC4F9B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatelessInboxService", "InboxAspNetCore\StatelessInboxService.csproj", "{D484A32C-CCE6-4709-B496-7719EB9FD11F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77E40DBA-4034-4D61-B7BC-77C0E249468F}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{77E40DBA-4034-4D61-B7BC-77C0E249468F}.Debug|x64.ActiveCfg = Debug|x64
+		{77E40DBA-4034-4D61-B7BC-77C0E249468F}.Debug|x64.Build.0 = Debug|x64
+		{77E40DBA-4034-4D61-B7BC-77C0E249468F}.Debug|x64.Deploy.0 = Debug|x64
+		{77E40DBA-4034-4D61-B7BC-77C0E249468F}.Release|Any CPU.ActiveCfg = Release|x64
+		{77E40DBA-4034-4D61-B7BC-77C0E249468F}.Release|x64.ActiveCfg = Release|x64
+		{77E40DBA-4034-4D61-B7BC-77C0E249468F}.Release|x64.Build.0 = Release|x64
+		{77E40DBA-4034-4D61-B7BC-77C0E249468F}.Release|x64.Deploy.0 = Release|x64
+		{17D9EC43-EE69-4B04-A21D-A48851DC4F9B}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{17D9EC43-EE69-4B04-A21D-A48851DC4F9B}.Debug|x64.ActiveCfg = Debug|x64
+		{17D9EC43-EE69-4B04-A21D-A48851DC4F9B}.Debug|x64.Build.0 = Debug|x64
+		{17D9EC43-EE69-4B04-A21D-A48851DC4F9B}.Release|Any CPU.ActiveCfg = Release|x64
+		{17D9EC43-EE69-4B04-A21D-A48851DC4F9B}.Release|x64.ActiveCfg = Release|x64
+		{17D9EC43-EE69-4B04-A21D-A48851DC4F9B}.Release|x64.Build.0 = Release|x64
+		{D484A32C-CCE6-4709-B496-7719EB9FD11F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D484A32C-CCE6-4709-B496-7719EB9FD11F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D484A32C-CCE6-4709-B496-7719EB9FD11F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D484A32C-CCE6-4709-B496-7719EB9FD11F}.Debug|x64.Build.0 = Debug|Any CPU
+		{D484A32C-CCE6-4709-B496-7719EB9FD11F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D484A32C-CCE6-4709-B496-7719EB9FD11F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D484A32C-CCE6-4709-B496-7719EB9FD11F}.Release|x64.ActiveCfg = Release|Any CPU
+		{D484A32C-CCE6-4709-B496-7719EB9FD11F}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
